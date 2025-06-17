@@ -1,0 +1,35 @@
+.App {
+  background-color: #2c57ad;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  
+}
+
+main {
+  margin-left: 1rem;
+  transition: margin-left 0.3s ease;
+  width: 100%;
+}
+
+img.mainSidebarToggle {
+  width: 30px;
+  padding-top: 2rem;
+  transition: display 0.5s;
+}
+
+.todoListContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSidebarToggle.hidden{
+  display: none;
+}
+
+.mainSidebarToggle.showing{
+  display: block;
+}
